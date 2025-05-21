@@ -1,0 +1,37 @@
+.imagePicker{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.pickerInput{
+    display: none;
+}
+.imagePicker button{
+    width: 180px;
+    height: 50px;
+    font-size: 1.3rem;
+    background: linear-gradient(90deg, #fd4715, #f9b241);
+    text-align: center;
+    border-radius: 7px;
+}
+.preview {
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid #a4abb9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #a4abb9;
+    position: relative;
+  }
+  
+  .preview p {
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .preview img {
+    object-fit: cover;
+  }

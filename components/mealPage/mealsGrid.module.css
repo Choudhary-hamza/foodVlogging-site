@@ -1,0 +1,15 @@
+.ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.li{
+    width: 25%;
+    height: auto;
+    min-width: 320px;
+    border-radius: 50px;
+}
